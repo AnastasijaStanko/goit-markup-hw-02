@@ -1,5 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #212121;
+    background-color: #FFFFFF;
 }
 
 .list {
@@ -10,7 +13,7 @@ body {
     text-decoration: none;
 }
 
-.logo-web {
+.logo-link {
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -19,6 +22,26 @@ letter-spacing: 0.03em;
 
 color: #2196F3;
 }
+
+.logo-header {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.logo-header-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;   
+color: #FFFFFF;
+}
+
 .logo-studio {
 font-weight: 700;
 font-size: 26px;
@@ -30,10 +53,8 @@ color: #FFFFFF;
 
 .nav-link, .link-logo-tel {
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
 }
 
 .link-logo-tel {
@@ -41,10 +62,6 @@ color: #757575;
 }
 
 .link-mail {
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
 color: #757575;
 }
 
@@ -54,7 +71,7 @@ color: #757575;
 .hero-title {
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: calc(60 / 44);
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -80,18 +97,14 @@ color: #FFFFFF;
     background-color: #F5F5F5;
 }
 
-.section-h {
-    font-weight: 700;
-font-size: 14px;
+.about-title {
+font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
-color: #212121;
 }
 .section-paragraph {
 font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
@@ -104,8 +117,6 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
-
-color: #212121;
 }
 
 .section-team {
@@ -118,8 +129,6 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
-
-color: #212121;
 }
 
 .list {
@@ -128,8 +137,6 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-
-color: #212121;
 }
 
 .team-people {
@@ -138,8 +145,6 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-
-color: #212121;
 }
 
 .team-paragraph {
