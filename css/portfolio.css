@@ -20,6 +20,10 @@ body {
     text-decoration: none;
 }
 
+.header-list .nav-link.current {
+    color: var(--main-btn-color);
+}
+
 .logo-link {
     font-family: 'Raleway';
     font-size: 26px;
