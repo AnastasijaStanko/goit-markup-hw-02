@@ -1,8 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    color: #212121;
-    background-color: #FFFFFF;
+    color: var(--main-title-color);
+    background-color: var(--secondary-title-color);
 }
 
 :root {
@@ -82,7 +82,18 @@ color: #2196F3;
 .link-logo-tel:focus{
     color: #2196F3;
 }
-
+.footer-mail:focus{
+    color: #2196F3;
+}
+.footer-mail:hover{
+    color: #2196F3;
+}
+.footer-tel:hover{
+    color: #2196F3;
+}
+.footer-tel:focus{
+    color: #2196F3;
+}
 
 
 .link-logo-tel {
@@ -126,6 +137,7 @@ color: var(--secondary-title-color);
 }
 
 .about-title {
+font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
