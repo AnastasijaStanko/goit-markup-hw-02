@@ -98,13 +98,16 @@ color: #2196F3;
 
 .link-logo-tel {
 color: var(--about-text-color);
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 
 .link-mail {
 font-weight: 500;
 color: var(--about-text-color);
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
-
 
 .hero {
     background-color: #2F303A;
